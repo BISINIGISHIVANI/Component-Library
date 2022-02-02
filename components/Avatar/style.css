@@ -1,50 +1,47 @@
 .avatar{
     border-radius:50%;
   }
+
   .square-avatar{
     border-radius:0.5rem;
   }
+
   .avatar-sm{
     width:3rem;
   }
+
   .avatar-md{
     width:5rem;
   }
+
   .avatar-lg{
     width:8rem;
   }
+
   .letter-avatars{
-  
     background-color:green;
     padding:0.2rem;
   }
-  .material-icons.icon-avatar{
-    color:black;
-  }
-  .material-icons .Icon-avatar{
-    background-color:green;
-  }
+
   .avatar-stack{
-    
     position:relative;
   }
+
   .avatar-stack:nth-child(1){
     z-index:5;
   }
+
   .avatar-stack:nth-child(2){
     z-index: 4;
     margin-left:-2rem;
   }
+
   .avatar-stack:nth-child(3){
     z-index: 3;
     margin-left:-2rem;
   }
   
-  .fas.fa-cloud.Icon-avatar{
-  
-    padding:0.4rem;
-  
-  }
+
   
   
   
