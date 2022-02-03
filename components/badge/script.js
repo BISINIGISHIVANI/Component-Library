@@ -1,11 +1,10 @@
-const inputOne=document.querySelector("#btn-ide");
-
-function myFunction(){
-    const userInput=document.querySelector("#toggle1");
-    if(userInput.style.visibility === "visible"){
-        userInput.style.visibility="hidden";
+const btnInput=document.querySelector("#btn-input");
+const hideBadge=()=>{
+    const badge=document.querySelector("#badge-hide");
+    if(badge.style.visibility === "visible"){
+        badge.style.visibility="hidden";
     }else{
-        userInput.style.visibility="visible";
+        badge.style.visibility="visible";
     }
 }
-// inputOne.addEventListener("click",myFunction) 
+btnInput.addEventListener("click",hideBadge);
