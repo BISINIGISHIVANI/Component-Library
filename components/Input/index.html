@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="form-flex">
+        <form action="#"class="form-flex form-size">
+        <h4>Input Textbox</h4>
+        <label for="fisrt-name">First Name:</label>
+        <input type="text" name="fisrt-name" id="fisrt-name"placeholder="enter your first name">
+        <label for="last-name">Last Name:</label>
+        <input type="text" name="last-name" id="last-name"placeholder="enter your  last name">
+        </form>
+        <form action=""class="form-flex validatin-form-size">
+            <h4>Input validation and Error</h4>
+            <label for="gmail">Gmail*<input type="text" name="gmail" id="gmail"placeholder="enter your gmail"required></label>
+            <label id="label-pwd"for="phone-number">Phone Number<input type="text" name="phone-number" id="phone-number"placeholder="enter your phone-number"></label>
+            <input type="button" name="submit" id="submit"value="submit">
+            <div id="output"></div>
+        </form>
+        <script src="./script.js"></script>
+    </section>
+</body>
+</html>
