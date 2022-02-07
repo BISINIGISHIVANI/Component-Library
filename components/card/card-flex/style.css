@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:6px;
+}
+.card{
+    height: fit-content;
+    box-decoration-break: clone;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    background-color: azure;
+}
+.title{
+    font-size: medium;
+}
+.border-btm-sm{
+    border-bottom: 0.1rem solid rgb(179, 173, 173);
+}
+.padding-xs{
+    padding: 0.5rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between; 
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:0.5rem;
+}
+button{
+    background-color: rgb(40, 156, 156);
+    color: aliceblue;
+}
+#close{
+    cursor: pointer;
+}
+.img-relative{
+    position: relative;
+}
+.h4-absolute{
+    position: absolute;
+    top:2rem;
+}
+.card-shadow{
+    box-shadow: 5px 10px 5px 10px#888888;
+    border-radius: 4px;
+}
+
+.hr-flex{
+    display: inline-flex;
+    gap: 2rem;
+}
+.badge{
+    border: 1px solid black;
+    border-radius: 0 12px;
+    background-color: rgb(31, 77, 77);
+    color: aliceblue;
+}
+
