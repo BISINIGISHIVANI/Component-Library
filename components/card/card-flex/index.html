@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card flex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hr-flex">
+        <h3>text only card</h3>
+        <div class="card-container">
+            <div class="card padding-xs" id="card">
+                <div class="header border-btm-sm padding-xs">
+                    <div class="title">Card title</div>
+                    <div class="title " id="close">X</div>
+                </div>
+                <div class="border-btm-sm">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ab nemo aliquid dolor ex
+                        mollitia possimus magni asperiores quasi, facere molestiae cupiditate laboriosam fuga voluptas
+                        consequuntur nesciunt hic recusandae maxime.</p>
+                </div>
+                <div class="footer padding-xs">
+                    <button>LIKE</button>
+                    <button>VISIT</button>
+                </div>
+            </div>
+            <h3>textover-lay card</h3>
+            <div class="card padding-xs" id="card">
+                <div class="header border-btm-sm padding-xs">
+                    <div class="title">Card title</div>
+                    <div class="title " id="close">X</div>
+                </div>
+                <div>
+                    <img src="https://picsum.photos/320" alt="image-random" class="img-relative" />
+                </div>
+                <h4 class="h4-absolute padding-xs">Images<br><span>12-01-1947</span></h4>
+            </div>
+            <h3>card with shadow</h3>
+            <div class="card padding-xs card-shadow padding-xs" id="card">
+                <div class="header border-btm-sm padding-xs">
+                    <div class="title">Card title</div>
+                    <div class="title " id="close">X</div>
+                </div>
+                <hr>
+                <img src="https://picsum.photos/310" alt="random-image" />
+                <div class="border-btm-sm">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ab nemo aliquid dolor ex
+                        mollitia possimus magni asperiores quasi, facere molestiae cupiditate laboriosam fuga voluptas
+                        consequuntur nesciunt hic recusandae maxime.</p>
+                </div>
+                <div class="footer padding-xs">
+                    <button>LIKE</button>
+                    <button>VISIT</button>
+                </div>
+            </div>
+            <h3>horizontal card</h3>
+            <div class="card padding-xs" id="card">
+                <div class="header border-btm-sm padding-xs">
+                    <div class="title">Card title</div>
+                    <div class="title " id="close">X</div>
+                </div>
+                <div class="hr-flex padding-xs">
+                    <div>
+                        <img src="https://picsum.photos/150" alt="image random" />
+                    </div>
+                    <h4 class="padding-xs">See Random Images</h4>
+                </div>
+            </div>
+            <h3>card with badge</h3>
+            <div class="card padding-xs" id="card">
+                <div class="header border-btm-sm padding-xs">
+                    <div class="title">Card title</div>
+                    <div class="badge padding-xs">New</div>
+                </div>
+                <div class="hr-flex padding-xs">
+                    <div>
+                        <img src="https://picsum.photos/150" alt="image random img-responsive" />
+                    </div>
+                    <h4 class="padding-xs K">See Random Images</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="./script.js"></script>
+</body>
+</html>
