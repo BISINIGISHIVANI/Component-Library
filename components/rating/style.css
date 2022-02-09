@@ -1,0 +1,24 @@
+.rate-size {
+    font-size: 2rem;
+}
+
+.rating li.rated {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.rating li.rated:hover {
+    background-color: red;
+
+}
+
+.border-rate {
+    width: fit-content;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.emoji:hover {
+    background-color: blue;
+    border-radius: 50%;
+}

@@ -1,0 +1,12 @@
+.toast {
+    display: inline;
+    font-size: 2rem;
+    padding: 1rem;
+    color: white;
+    background-color: rgb(80, 75, 83);
+    z-index: 1;
+}
+
+.toast-right {
+    margin-left: 4rem;
+}
