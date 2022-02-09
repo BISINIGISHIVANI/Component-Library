@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@100&family=Rubik:wght@300;400&family=Ubuntu+Mono&display=swap');
+
+/*
+font-family use: 
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+     font-family: 'Ubuntu Mono', monospace;
+*/
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.typography-container {
+    border: 1px solid black;
+}
+
+.title-lg {
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 3px;
+}
+
+.title-md {
+    font-weight: 700;
+}
+
+.text-box {
+    border: 1px solid black;
+}
+
+.subtitle-md {
+    font-size: medium;
+}
+
+.subtitle-lg {
+    font-size: larger;
+}
+
+.paragraph-md {
+    font-size: x-large;
+}
+
+.paragraph-lg {
+    font-size: xx-large;
+
+}
+
+.caption {
+    font-size: 1.2rem;
+
+}
+
+.text-gray {
+    color: grey;
+}
+
+.text-center {
+    text-align: center;
+}
