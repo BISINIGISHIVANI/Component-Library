@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-size: larger;
+}
+
+.img-icon {
+  border-radius: 50%;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e4b0b0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.nav-container {
+  background-color: rgb(221, 149, 149);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  place-items: center center;
+  justify-content: space-between;
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-ul li {
+  font-size: 2rem;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.nav-ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.dropbtn {
+  font-size: 1.5rem;
+  border: 0;
+  background-color: transparent;
+  color: #f9f9f9;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+  background-color: transparent;
+  border: 0;
+  color: #f9f9f9;
+  cursor: pointer;
+}
+
+#hamburger:focus,
+.dropbtn:focus {
+  outline: none;
+}
+
+.material-icons-outlined {
+  font-size: medium;
+}
+
+@media screen and (max-width:750px) {
+  .nav-ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #e4b0b0;
+  }
+
+  .nav-ul.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .material-icons-outlined.hamburger {
+    display: block;
+    margin-left: 0 auto;
+  }
+}

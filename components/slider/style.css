@@ -1,0 +1,15 @@
+.slider{
+    -webkit-appearance:none;
+    width: 50%;
+    height:25px;
+   background: #d3d4d3;
+   outline: none;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #5b42a0;
+    cursor: pointer;
+  }
