@@ -1,3 +1,58 @@
 @import url(./CSS/reset.css);
 @import url(./CSS/utility.css);
 @import url(./CSS/main.css);
+.logo{
+    width:2rem;
+    height:2rem;
+    border-radius:4px;
+    background-color: rgb(253, 246, 246);
+    margin: 12px;
+    box-sizing: border-box;
+}
+.primary-heading{
+    color: var(--primary-logoColor);
+}
+.secondary-heading{
+    color:var(--secondary-logoColor) ;
+}
+ .docnav-bar{
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center center;
+    justify-content: space-between;
+} 
+.docnav-leftEl{
+    display: inline-flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+} 
+
+.docnav-leftEl h4{
+    margin-top:12px;
+}
+.docheader{
+    position: sticky;
+}
+.get-start{
+    padding:6rem 0;
+}
+.margin-sm{
+    margin: 3rem 0;
+}
+.get-start:nth-child(1){
+    display: flex;
+    color: rgb(76, 125, 202);
+    flex-direction: column;
+    flex-wrap: wrap;
+    place-items: center center;
+}
+.subTitle-getStart{
+    color: black;
+    text-align: center;
+}
+.btn-getStart{
+    outline: none;
+    border: 0;
+    padding: 8px;
+}
