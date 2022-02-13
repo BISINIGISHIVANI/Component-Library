@@ -4,3 +4,13 @@
     grid-template-columns: auto auto;
     gap: 1rem;
 }
+.stackedlist-style li{
+    list-style: none;
+}
+.stackedlist-style ul{
+    font-size:1.2rem;
+}
+
+.stacklist-title ul li:hover{
+   background-color: rgb(241, 236, 236);
+}

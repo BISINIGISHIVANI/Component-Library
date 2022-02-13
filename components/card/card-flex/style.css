@@ -34,7 +34,7 @@ body{
     justify-content: flex-end;
     gap:0.5rem;
 }
-button{
+.btn-card{
     background-color: rgb(40, 156, 156);
     color: aliceblue;
 }
