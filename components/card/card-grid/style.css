@@ -2,13 +2,13 @@ body {
     font-family: sans-serif;
 }
 
-.container {
+.container-grids {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 8px;
 }
 
-.card {
+.cards-size{
     width: 20rem;
     border: 2px solid black;
     height: fit-content;
