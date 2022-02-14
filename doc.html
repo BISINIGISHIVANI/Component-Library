@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation-UI</title>
+    <link rel="stylesheet" href="component.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+</head>
+
+<body>
+    
+    <aside class="doc-sidebar">
+        <div>
+            <h4 class="padding-sm">GetStarted</h4>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+            </ul>
+            <h4 class="padding-sm">Components</h4>
+            <ul>
+                <li><a href="#avatar">Avatar</a></li>
+                <li><a href="#alert-a">Alert</a></li>
+                <li><a href="#badge-a">Badge</a></li>
+                <li><a href="#btn-a">Button</a></li>
+                <li><a href="#card-a">Card</a></li>
+                <li><a href="#image-a">Image</a></li>
+                <li><a href="#input-a">Input</a></li>
+                <li><a href="#text-a">Text Utilites</a></li>
+                <li><a href="#lists-a">Lists</a></li>
+                <li><a href="#nav-a">Navigation</a></li>
+                <li><a href="#modal-a">Modal</a></li>
+                <li><a href="#rating-a">Rating</a></li>
+                <li><a href="#toast-a">Toast/Notify</a></li>
+                <li><a href="#grid-a">Simplified Grid</a></li>
+                <li><a href="#slider-a">Slider</a></li>
+            </ul>
+        </div>
+    </aside>
+    <div class="content-doc" id="document">
+        <div id="main">
+            <header class="docheader">
+                <nav class="docnav-bar">
+                    <div class="docnav-leftEl">
+                        <a href="./index.html">
+                            <img class="logo" src="https://static.thenounproject.com/png/427493-200.png" alt="logo">
+                        </a>
+                        <h4>ComponentLibraryUI</h4>
+                    </div>
+        
+                    <div class="docnav-rightEl">
+                        <a class="padding-xs" href="./index.html">home</a>
+                        <a class="padding-xs"
+                            href="https://github.com/BISINIGISHIVANI/component-library/tree/development/components">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </nav>
+            </header>
+            <section class="Introduction-doc">
+                <!-- introduction  -->
+                <div id="introduction" class="introduction">
+                    <h2>Introduction</h2>
+                    <p class="doc-parragraph">
+                        an open source styling framework, which helps Developers to use best styles and components,
+                        by
+                        using pre-defined classnames.
+                    </p>
+                    <h4 class="padding-sm doc-parragraph">Quick start</h4>
+                    Looking to quickly add Component Library link to your project? Use below css, a free open
+                    source.
+
+                    <h4 class="padding-sm doc-parragraph">CSS</h4>
+                    <p>
+                        Copy-paste the url in style sheet
+                        <pre><code>
+                               &lt;style&gt;&lt;/style&gt;
+                            </code></pre>
+                        before all other stylesheets to load our CSS.
+                    </p>
+                    <div class="clip-board">
+                        <input type="text"
+                            value="@import url(https://component-library-shivani.netlify.app/component.css)"
+                            id="clip-input">
+                        <button class="padding-sm" id="clip-btn">Copy text</button>
+                    </div>
+                </div>
+                <!-- avatar component  -->
+                <section class="avatar">
+                    <h4 class="padding-sm" id="avatar">Avatar</h4>
+                    <p class="doc-parragraph">
+                        Avatars are lightweight components, which render inline by default, so that they are
+                        vertically
+                        centered beside any adjoining plain text. They also can be used as children of other
+                        components.
+                        The avatar content can be either a an image, an icon, or short text string.
+                    </p>
+
+                    <h4 class="padding-sm">Example</h4>
+                    <div class="doc-example">
+                        <div class="avatar-group">
+                            <img src="https://picsum.photos/71" alt="random-image" class="avatar-stack avatar avatar-1">
+                            <img src="https://picsum.photos/72" alt="random-image"
+                                class="avatar-stack avatar-2 avatar ">
+                            <img src="https://picsum.photos/63" alt="random-image" class="avatar-stack avatar-3 avatar">
+                        </div>
+                    </div>
+
+                    <h5>Code</h5>
+                    <div class="doc-code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-light&wt=boxy&l=auto&width=843.4000020027161&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-group%2522%253E%250A%2520%2520%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F71%2522%2520alt%253D%2522random-image%2522%2520class%253D%2522avatar-stack%2520avatar%2520avatar-1%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F72%2522%2520alt%253D%2522random-image%2522%2520class%253D%2522avatar-stack%2520avatar-2%2520avatar%2520%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F63%2522%2520alt%253D%2522random-image%2522%2520class%253D%2522avatar-stack%2520avatar-3%2520avatar%2522%253E%250A%253C%252Fdiv%253E"
+                            style="width: 843px; height: 140px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                </section>
+                <!-- alert  -->
+                <section id="alert-a">
+                    <h4 class="padding-sm">Alert</h4>
+                    <p class="doc-parragraph">Provide contextual feedback messages for typical user actions with the handful of available
+                        and
+                        flexible alert messages.</p>
+                    <h5>Examples</h5>
+                    <div class="doc-example">
+                        <div class="alert-container">
+                            <div class="alert alert-flex">
+                                <span class="material-icons-outlined icn-right">check_circle_outline</span>
+                                Successfully updated
+                                <span class="material-icons-outlined btn-close">close</span>
+                            </div>
+                            <div class="alert">
+                                <span class="material-icons-outlined icn-right">cancel</span>
+                                You have No credits left.Upgrade your account.
+                                <div class="container">
+                                    <p>Play the game Earn Points.</p>
+                                    <button>Get started</button>
+                                    <button>knowMore</button>
+                                </div>
+                            </div>
+                            <div class="alert alert-flex">
+                                <span class="material-icons-outlined icn-right">info</span>
+                                for information click here.
+                                <span class="material-icons-outlined btn-close">close</span>
+                            </div>
+                            <div class="alert alert-accent-border alert-flex">
+                                <span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis vitae aut laboriosam
+                                    vel
+                                    est maxime labore, rerum
+                                    adipisci quos a expedita aperiam autem beatae. Earum odit maiores molestias quasi
+                                    fugit?
+                                </span>
+                            </div>
+                            <div>
+                                <div class="alert alert-flex">
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias commodi
+                                        voluptatum
+                                        repellat. Possimus
+                                        accusantium cumque modi rem eaque hic fugit dolores veniam saepe, numquam
+                                        soluta.
+                                        Blanditiis dolores expedita
+                                        tempora vel.
+                                    </span>
+                                    <span class="material-icons-outlined  btn-close">arrow_forward</span>
+                                </div>
+                            </div>
+                            <div class="alert alert-flex">
+                                <span class="material-icons-outlined icn-right">report_problem</span>
+                                <span>Lorem ipsum a dummy text</span>
+                                <span class="material-icons-outlined btn-close">close</span>
+                                <div class="container">
+                                    <ul>
+                                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus mollitia
+                                            quisquam minus! Odio aliquid
+                                            incidunt saepe esse quis consectetur optio! Doloribus, nesciunt numquam.
+                                            Rerum
+                                            provident quam magnam soluta
+                                            odit repellendus!</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sequi unde
+                                            architecto est in nisi
+                                            officiis repellat, qui corrupti eaque illum sint sapiente iusto aliquid
+                                            explicabo voluptate, deserunt
+                                            necessitatibus a?</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-light&wt=boxy&l=auto&width=843.4000020027161&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-flex%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icn-right%2522%253Echeck_circle_outline%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520Successfully%2520updated%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520btn-close%2522%253Eclose%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                            style="width: 695px; height: 140px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                </section>
+                <!-- badge component  -->
+                <section id="badge-a">
+                    <h4 class="padding-sm">Badge</h4>
+                    <p class="doc-parragraph">The Badge component is a visual indicator for UI elements. It enables you to easily show
+                        statuses, notifications and short messages in your app. Badges provide additional contextual
+                        information for other elements on the page. The Badge position is determined by its parent
+                        element</p>
+                    <h4 class="padding-sm">Examples</h4>
+                    <div class="doc-example">
+                        <div class="badge-relative">
+                            <img class="badge-round" src="https://picsum.photos/70" alt="random-image">
+                            <div class="badge-absolute badge-avatar badge-round box badge-round"></div>
+                        </div>
+                    </div>
+
+                    <h4 class="padding-sm">code</h4>
+                </section>
+                <!-- button component  -->
+                <section id="btn-a" class="button">
+                    <h4 class="padding-sm">Button</h4>
+                    <p class="doc-parragraph">Buttons are used to perform actions that are called out and described by text, an icon, or
+                        both.
+                        There are also text-only buttons that are de-emphasized compared to a normal button.
+                    </p>
+                    <h4 class="padding-sm">Example</h4>
+                    <div class="doc-example">
+                        <div>
+                            <h4 class="padding-sm">Primary Button</h4>
+                            <button class="btn-primary">Results</button>
+                            <button class="btn-secondary">Cancel</button>
+                            <button type="button" disabled>Disable</button>
+                            <button class="btn-plain">Text</button>
+                        </div>
+                        <div>
+                            <h4 class="padding-sm">Icon button</h4>
+                            <button class="btn-icn">sent<span
+                                    class="material-icons-outlined btn-icn-left">send</span></button>
+                            <button><span class="material-icons-outlined btn-icn-rht">reply_all</span>reply</button>
+                        </div>
+                        <div>
+                            <h4 class="padding-sm">floating buttons</h4>
+                            <span class="material-icons-round btn-icn">check_circle</span>
+                            <span class="material-icons-round btn-icn">gps_fixed</span>
+                            <span class="material-icons-round btn-icn">assistant_direction</span>
+                            <span class="material-icons-round btn-icn">navigation</span>
+                        </div>
+                    </div>
+                    <h4 class="padding-sm">code</h4>
+                    <div>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-light&wt=boxy&l=auto&width=843.4000020027161&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-primary%2522%253EResults%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-secondary%2522%253ECancel%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520disabled%253EDisable%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-plain%2522%253EText%253C%252Fbutton%253E"
+                            style="width: 418px; height: 118px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!-- card component  -->
+                <section id="card-a">
+                    <h4 class="padding-sm">Card</h4>
+                    <p class="doc-parragraph">
+                        A card is a flexible and extensible content container. It includes options for headers and
+                        footers,
+                        a
+                        wide variety of content, contextual background colors, and powerful display options.
+                    </p>
+
+                    <h4 class="padding-sm">Example</h4>
+                    <h4 class="padding-sm">card with badge</h4>
+                    <div class="doc-example">
+                        <div class="card padding-xs" id="card">
+                            <div class="header border-btm-sm padding-xs">
+                                <div class="title">Card title</div>
+                                <div class="badge padding-xs">New</div>
+                            </div>
+                            <div class="hr-flex padding-xs">
+                                <div>
+                                    <img src="https://picsum.photos/150" alt="image random img-responsive" />
+                                </div>
+                                <h4 class="padding-sm" class="padding-xs K">See Random Images</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-light&wt=boxy&l=auto&width=843.4000020027161&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520padding-xs%2522%2520id%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header%2520border-btm-sm%2520padding-xs%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title%2522%253ECard%2520title%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520padding-xs%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522hr-flex%2520padding-xs%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F150%2522%2520alt%253D%2522image%2520random%2520img-responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522padding-xs%2520K%2522%253ESee%2520Random%2520Images%253C%252Fh4%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                            style="width: 687px; height: 318px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h4 class="padding-sm">Card with TextOverlay</h4>
+                    <div class="doc-example">
+                        <div class="cards-size padding-sm">
+                            <div class="img-responsive content  card-grid">
+                                <img src="https://picsum.photos/320" alt="" />
+                            </div>
+                            <div class="card-shortnote  card-grid padding-sm">
+                                <h2>Random images</h2>
+                                <p class="sub-title">see random images</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h5>Code</h5>
+                    <div>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-light&wt=boxy&l=auto&width=843.4000020027161&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522cards-size%2520padding-sm%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-responsive%2520content%2520%2520card-grid%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F320%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-shortnote%2520%2520card-grid%2520padding-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ERandom%2520images%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sub-title%2522%253Esee%2520random%2520images%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+                            style="width: 494px; height: 229px; border:0; transform: scale(1); overflow:auto;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!-- image component  -->
+                <section id="image-a">
+                    <h4 class="padding-sm">Image</h4>
+                    <p class="doc-parragraph">
+                        The Image Component comes with robust responsive features ready right out of the box. At the
+                        page
+                        template level, the design dialog can be used to define the default widths of the image asset.
+                        The
+                        Image
+                        Component will then automatically load the correct width to display depending on the size of the
+                        browser
+                        window
+                    </p>
+                    <h4 class="padding-sm">Example</h4>
+                    <div class="doc-example">
+                        <div>
+                            <img src="https://picsum.photos/400/300" alt="random-image" class="responsive">
+                        </div>
+                    </div>
+
+                    <h5>Code</h5>
+                    <div>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-light&wt=boxy&l=auto&width=843.4000020027161&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%252F300%2522%2520alt%253D%2522random-image%2522%2520class%253D%2522responsive%2522%253E%250A"
+                            style="width: 687px; height: 74px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!-- input component  -->
+                <section id="input-a">
+                    <h4 class="padding-sm">Input</h4>
+                    <p class="doc-parragraph">Inputs are necessary for user interaction with the website. Inputs are used to take information
+                        from
+                        the
+                        user, and then save the data to the server, accordingly.
+                    </p>
+                    <h4 class="padding-sm">Example</h4>
+                    <div class="doc-example">
+                        <form class="padding-sm validatin-form-size card">
+                            <h4 class="padding-sm">Input validation and Error</h4>
+                            <label for="gmail">Gmail*<input type="email" name="gmail" id="gmail"
+                                    placeholder="enter your gmail" required></label><br>
+                            <label id="label-pwd" for="phone-number">Phone Number<input type="text" name="phone-number"
+                                    id="phone-number" placeholder="enter your phone-number"></label><br>
+                            <input type="button" name="submit" id="submit" value="submit">
+                            <div id="output"></div>
+                        </form>
+                    </div>
+                    <h5>Code</h5>
+                    <div>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-light&wt=boxy&l=auto&width=843.4000020027161&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Clabel%2520for%253D%2522gmail%2522%253EGmail*%253Cinput%2520type%253D%2522email%2522%2520name%253D%2522gmail%2522%2520id%253D%2522gmail%2522%2520placeholder%253D%2522enter%2520your%2520gmail%2522required%253E%253C%252Flabel%253E%253Cbr%253E%250A%253Clabel%2520id%253D%2522label-pwd%2522%2520for%253D%2522phone-number%2522%253EPhone%2520Number%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522phone-number%2522%250Aid%253D%2522phone-number%2522%2520placeholder%253D%2522enter%2520your%2520phone-number%2522%253E%253C%252Flabel%253E%253Cbr%253E%250A%253Cinput%2520type%253D%2522button%2522%2520name%253D%2522submit%2522%2520id%253D%2522submit%2522%2520value%253D%2522submit%2522%253E"
+                            style="width: 844px; height: 140px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                </section>
+                <!-- text-utilities component  -->
+                <section id="text-a">
+                    <h4 class="padding-sm">Text Utilities</h4>
+                    <p class="doc-parragraph">
+                        Text utility classes that can be used on any element in order to modify the text, element
+                        placement
+                        or
+                        adjust the padding and margin etc.
+                    </p>
+                    <h4 class="padding-sm">Example</h4>
+                    <div class="doc-example">
+                        <h1 class="title-lg">Large title</h1>
+                        <h4 class="padding-sm" class="title-md">medium title</h4>
+                    </div>
+
+                    <h5>Code</h5>
+                    <div>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-light&wt=boxy&l=auto&width=843.4000020027161&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522title-lg%2522%253ELarge%2520title%253C%252Fh1%253E%250A%253Ch4%2520class%253D%2522title-md%2522%253Emedium%2520title%253C%252Fh4%253E"
+                            style="width: 844px; height: 74px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!-- list component  -->
+                <section id="lists-a">
+                    <h4 class="padding-sm">List</h4>
+                    <p class="doc-parragraph">
+                        List are a flexible and powerful component for displaying a series of content. Modify and extend
+                        them to support just about any content within.
+                    </p>
+                    <h4 class="padding-sm">Example</h4>
+                    <div class="doc-example">
+                        <div class="stackedlist-style">
+                            <h2>Stacked list</h2>
+                            <ul class="stacklist-title">
+                                <li>Inbox 🔻</li>
+                                <ul>
+                                    <li>Read</li>
+                                    <li>Unread</li>
+                                    <li>starred</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h5>Code</h5>
+                    <div>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-light&wt=boxy&l=auto&width=843.4000020027161&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522stackedlist-style%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EStacked%2520list%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522stacklist-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EInbox%2520%25F0%259F%2594%25BB%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ERead%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EUnread%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Estarred%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+                            style="width: 843px; height: 274px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!-- navigation component  -->
+                <section id="nav-a" class="navigation">
+                    <h4 class="padding-sm">Navigation</h4>
+                    <p class="doc-parragraph">
+                        The Navigation Component allows users to easily navigate a globalized site structure.
+                    </p>
+                    <h4 class="padding-sm">Example</h4>
+                    <div class="doc-example">
+                        <header>
+                            <nav class="nav-container">
+                                <div class="hero">
+                                    <img src="https://picsum.photos/70" alt="random-img" class="img-icon">
+                                    <h5>Title</h5>
+                                </div>
+                                <button class="hamburger" id="hamburger">
+                                    <span class="material-icons-outlined">menu</span>
+                                </button>
+                                <div class="nav-ul" id="nav-ul">
+                                    <ul>
+                                        <li><a href="#home">home</a></li>
+                                        <li><a href="#news">news</a></li>
+                                        <li><a href="#about">about</a></li>
+                                        <li>
+                                            <div class="dropdown">
+                                                <button class="dropbtn">Dropdown
+                                                </button>
+                                                <div class="dropdown-content">
+                                                    <a href="#">Link 1</a>
+                                                    <a href="#">Link 2</a>
+                                                    <a href="#">Link 3</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </header>
+                    </div>
+
+                    <h5>Code</h5>
+                    <div>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-light&wt=boxy&l=auto&width=843.4000020027161&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hero%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F70%2522%2520alt%253D%2522random-img%2522%2520class%253D%2522img-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253ETitle%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522hamburger%2522%2520id%253D%2522hamburger%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253Emenu%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-ul%2522%2520id%253D%2522nav-ul%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523home%2522%253Ehome%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523news%2522%253Enews%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523about%2522%253Eabout%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dropdown%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522dropbtn%2522%253EDropdown%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dropdown-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253ELink%25201%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253ELink%25202%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253ELink%25203%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+                            style="width: 843px; height: 607px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!-- modal component  -->
+                <section id="modal-a">
+                    <h4 class="padding-sm">Modal</h4>
+                    <p class="doc-parragraph">
+                        The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or
+                        whatever
+                        else. <ModalBody> main part of the modal, holds the input fields, images, etc. Place the modal
+                            markup
+                            somewhere at root of you component layout. To work with the modal you must use the reference
+                            to
+                            the
+                            Modal component.
+                    </p>
+                    <h4 class="padding-sm">Example</h4>
+                    <div class="doc-example">
+                        <div class="modal">
+                            <h5 class="model-border">modal header</h5>
+                            <div class="modal-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A modi
+                                odit, vel
+                                quasi
+                                et enim est minima iste corrupti eius recusandae debitis ut laboriosam, rem eum
+                                molestias
+                                numquam
+                                itaque amet!</div>
+                            <footer class="model-border">
+                                <h5>modal footer</h5>
+                            </footer>
+                        </div>
+                    </div>
+
+                    <h5>Code</h5>
+
+                    <div>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-light&wt=boxy&l=auto&width=843.4000020027161&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%253Ch5%2520class%253D%2522model-border%2522%253Emodal%2520header%253C%252Fh5%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal-body%2522%253E%250A%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520A%2520modi%2520odit%252C%2520vel%250A%2520%2520%2520%2520quasi%2520et%2520enim%2520est%2520minima%2520iste%2520corrupti%2520eius%2520recusandae%2520debitis%2520ut%250A%2520%2520%2520%2520laboriosam%252C%2520rem%2520eum%2520molestias%2520numquam%2520itaque%2520amet%21%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cfooter%2520class%253D%2522model-border%2522%253E%250A%2520%2520%2520%2520%253Ch5%253Emodal%2520footer%253C%252Fh5%253E%250A%2520%2520%253C%252Ffooter%253E%250A%253C%252Fdiv%253E%250A"
+                            style="width: 844px; height: 296px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!-- rating component -->
+                <section id="rating-a" class="rating">
+                    <h4 class="padding-sm">Rating</h4>
+                    <p class="doc-parragraph">
+                        Ratings provide insight regarding others' opinions and experiences, and can allow the user to
+                        submit
+                        a
+                        rating of their own.
+                    </p>
+                    <h4 class="padding-sm">Example</h4>
+                    <h5>emoji rating</h5>
+                    <div class="doc-example">
+                        <div class="rating border-rate">
+                            <span class="rate-size emoji">🥴</span><label for="">bad</label>
+                            <span class="rate-size emoji">🥺</span><label for="">nice</label>
+                            <span class="rate-size emoji">😃</span><label for="">good</label>
+                        </div>
+                    </div>
+                    <h5>Code</h5>
+                    <div>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-light&wt=boxy&l=auto&width=843.4000020027161&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2520border-rate%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522rate-size%2520emoji%2522%253E%25F0%259F%25A5%25B4%253C%252Fspan%253E%250A%2520%2520%253Clabel%2520for%253D%2522%2522%253Ebad%253C%252Flabel%253E%250A%2520%2520%253Cspan%2520class%253D%2522rate-size%2520emoji%2522%253E%25F0%259F%25A5%25BA%253C%252Fspan%253E%250A%2520%2520%253Clabel%2520for%253D%2522%2522%253Enice%253C%252Flabel%253E%250A%2520%2520%253Cspan%2520class%253D%2522rate-size%2520emoji%2522%253E%25F0%259F%2598%2583%253C%252Fspan%253E%250A%2520%2520%253Clabel%2520for%253D%2522%2522%253Egood%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A"
+                            style="width: 843px; height: 229px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!-- toast component -->
+                <section id="toast-a">
+                    <h4 class="padding-sm">Toast/Snackbar</h4>
+                    <p class="doc-parragraph">
+                        The Toast component is used to display messages in an overlay and has the capacity to customize
+                        the
+                        messages easily using its properties etc.
+                    </p>
+                    <h4 class="padding-sm">Example</h4>
+                    <div class="doc-example">
+                        <div class="toast border-rate">
+                            <span>you have bad network...</span>
+                            <span class="toast-right">Retry</span>
+                            <span class="toast-right">X</span>
+                        </div>
+                    </div>
+
+                    <h5>Code</h5>
+                    <div>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-light&wt=boxy&l=auto&width=843.4000020027161&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2520%2520%253Cspan%253Eyou%2520have%2520bad%2520network...%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522toast-right%2522%253ERetry%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522toast-right%2522%253EX%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A"
+                            style="width: 844px; height: 163px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!-- grid component  -->
+                <section id="grid-a">
+                    <h4 class="padding-sm">Simplified Grid</h4>
+                    <p class="doc-parragraph">
+                        Simple Grid is a 12-column, lightweight CSS grid to help you quickly build responsive
+                        websites.here
+                        you
+                        can see 3-column grid.
+                    </p>
+                    <h4 class="padding-sm">Example</h4>
+                    <h2>Grid-3: Three items in a grid</h2>
+                    <div class="doc-example">
+                        <div class="grid-triple">
+                            <div><img class="grids-img" src="https://picsum.photos/200
+                            " alt="random-img"></div>
+                            <div><img class="grids-img" src="https://picsum.photos/205
+                            " alt="random-img"></div>
+                            <div><img class="grids-img" src="https://picsum.photos/202" alt="random-img"></div>
+                        </div>
+                    </div>
+
+
+                    <h5>Code</h5>
+                    <div>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-light&wt=boxy&l=auto&width=843.4000020027161&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-triple%2522%253E%250A%2520%2520%253Cdiv%253E%253Cimg%2520class%253D%2522grids-img%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520alt%253D%2522random-img%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%253Cimg%2520class%253D%2522grids-img%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F205%2522%2520alt%253D%2522random-img%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%253E%253Cimg%2520class%253D%2522grids-img%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F202%2522%2520alt%253D%2522random-img%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                            style="width: 843px; height: 163px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!-- slider component  -->
+                <section id="slider-a">
+                    <h4 class="padding-sm">Slider</h4>
+                    <p class="doc-parragraph">
+                        The slider component is a better visualization of the number input. It is used for gathering
+                        numerical
+                        user data.
+                    </p>
+                    <h5>Example</h5>
+                    <h5>Custom slider</h5>
+                    <div class="doc-example">
+                        <input type="range" min="0" max="100" value="50" class="slider" id="range">
+                        <p>value:<span id="value-range"></span></p>
+                        <h5>Code</h5>
+                    </div>
+                    <div>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=one-light&wt=boxy&l=auto&width=843.4000020027161&ds=false&dsyoff=0px&dsblur=13px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520class%253D%2522slider%2522%2520id%253D%2522range%2522%253E"
+                            style="width: 843px; height: 51px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
