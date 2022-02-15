@@ -16,13 +16,21 @@
         <label for="last-name">Last Name:</label>
         <input type="text" name="last-name" id="last-name"placeholder="enter your  last name">
         </form>
-        <form action=""class="form-flex validatin-form-size">
-            <h4>Input validation and Error</h4>
-            <label for="gmail">Gmail*<input type="email" name="gmail" id="gmail"placeholder="enter your gmail"required></label>
-            <label id="label-pwd"for="phone-number">Phone Number<input type="text" name="phone-number" id="phone-number"placeholder="enter your phone-number"></label>
-            <input type="button" name="submit" id="submit"value="submit">
-            <div id="output"></div>
-        </form>
+        <div class="login-box">
+            <h2>Login</h2>
+            <form>
+              <div class="user-box">
+                <input type="text" name="username">
+                <label>Username</label>
+              </div>
+              <div class="user-box">
+                <input type="number"id="phone-number" name="phone-number">
+                <label id="label-pwd"for="phone-number">Phone Number</label>
+              </div>
+              <input type="button"class="login-submit"name="submit" id="submit"value="submit">
+              <div id="output"></div>
+          </form>
+        </div>
     </section>
     <script src="./script.js"></script>
 </body>
