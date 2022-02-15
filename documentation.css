@@ -53,6 +53,9 @@
     display: block;
     cursor: pointer;
   }
+  .content-doc,#open-sidemenu{
+    font-size: 0.9rem;
+  }
 
   .doc-sidebar {
     display: none;
@@ -220,6 +223,7 @@ iframe,
   line-break: auto;
   margin-left: 14rem;
 }
+
 
 /* section */
 
