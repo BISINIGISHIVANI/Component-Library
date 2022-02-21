@@ -9,7 +9,7 @@ const clipAction=()=>{
 }
 clipBtn.addEventListener('click',clipAction);
 
-//Sidebar 
+// //Sidebar 
 const menubtn=document.querySelector("#menu-bar");
 const sidemenu=document.querySelector("#open-sidemenu");
 const closeSidebar=document.querySelector("#close-btn");
@@ -25,4 +25,6 @@ const closeSide=()=>{
 menubtn.addEventListener("click",openSidebar)
 
 closeSidebar.addEventListener("click",closeSide)
+
+
 

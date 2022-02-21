@@ -50,10 +50,11 @@
   .badge-round{
     border-radius:50%;
     padding:0.1rem 0.3rem;
+    z-index: 0;
   }
 
   .badge-blue{
-    background-color:blue;
+    background-color:rgb(251, 186, 186);
     color:white;
   }
 
@@ -64,7 +65,8 @@
   }
 
   .box{
-    width:0.3rem;
-    height:0.6rem;
-    background-color:red;
+    width:1.2rem;
+    height:1.2rem;
+    border: 2px solid rgb(12, 12, 12);
+    background-color:rgb(251, 186, 186);
   }

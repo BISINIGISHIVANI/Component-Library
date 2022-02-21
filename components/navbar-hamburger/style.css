@@ -1,10 +1,13 @@
 body {
   margin: 0;
-  font-size: larger;
 }
-
+.nav-container h5{
+  font-size: 1rem;
+  text-transform: uppercase;
+}
 .img-icon {
   border-radius: 50%;
+  padding: 0.4rem 0.8rem;
 }
 
 .dropdown-content a:hover {
@@ -23,7 +26,6 @@ body {
   background-color: #e4b0b0;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
 }
 
 .hero {
@@ -52,7 +54,6 @@ body {
 }
 
 .nav-ul li {
-  font-size: 2rem;
   display: inline-block;
   padding: 10px 20px;
 }
@@ -60,14 +61,12 @@ body {
 .nav-ul li a {
   text-decoration: none;
   padding: 10px 20px;
-  color: #fff;
+  color: rgb(37, 36, 36);
 }
 
 .dropbtn {
-  font-size: 1.5rem;
   border: 0;
   background-color: transparent;
-  color: #f9f9f9;
   cursor: pointer;
 }
 

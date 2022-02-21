@@ -14,22 +14,34 @@
 .secondary-heading {
   color: var(--secondary-logoColor);
 }
-
+.btn-getStart{
+  text-decoration: none;
+}
+.fa.fa-github.github-icon{
+  font-size: 2.2rem;
+}
 .docnav-bar {
+  z-index: 100;
   background-color: rgb(245, 204, 204);
   border-bottom: 2px solid black;
   display: flex;
   flex-wrap: wrap;
   place-items: center center;
   justify-content: space-between;
+  padding: 0 1.5rem;
 }
 
-.docnav-leftEl {
-  display: inline-flex;
+.docnav-leftEl,.docnav-rightEl {
+  display: flex;
+  place-items: center center;
   flex-wrap: wrap;
   cursor: pointer;
 }
-
+.nav-title{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1.5rem;
+}
 #menu-bar,
 #close-btn,
 #open-sidemenu {
@@ -54,7 +66,7 @@
     cursor: pointer;
   }
   .content-doc,#open-sidemenu{
-    font-size: 0.9rem;
+    font-size: 1.04rem;
   }
 
   .doc-sidebar {
@@ -66,12 +78,13 @@
     width: 100%;
     background-color: #f1f1f1;
     position: fixed;
-    top: 2rem;
+    top: 1.5rem;
     height:50%;
     overflow: auto;
   }
 
   #open-sidemenu a {
+    text-decoration: none;
     display: block;
     color: black;
     padding: 16px;
@@ -87,27 +100,23 @@
     color: white;
   }
 
-  .content-doc #main,
+ .content-doc #main,
   .content-doc header {
-    line-break: auto;
-    margin-left: 14rem;
-  }
+    margin-left:-14rem;
+  } 
 
-  .docnav-rightEl {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .content-doc {
+ .content-doc {
     margin-left: -14rem;
   }
 }
 
 /* //resoponsive sidebar ends */
 
-.docnav-leftEl h4 {
-  margin-top: 12px;
+.docnav-rightEl a{
+  text-decoration: none;
+}
+.docnav-rightEl a,.fa.fa-github.github-icon{
+  color: var(--primary-logoColor);
 }
 
 .docheader {
@@ -117,11 +126,16 @@
 
 .get-start {
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 6rem 0;
 }
 
 .margin-sm {
   margin: 3rem 0;
+}
+.main-heading,.subTitle-getStart {
+  text-align: center;
+  padding: 0 2rem;
 }
 
 .get-start:nth-child(1) {
@@ -130,32 +144,34 @@
   flex-direction: column;
   flex-wrap: wrap;
   place-items: center center;
+  letter-spacing: 2px;
 }
 
 .subTitle-getStart {
-  color: black;
-  text-align: center;
+  line-height: 1.8rem;
+  width:70%;
 }
-
 .btn-getStart {
-  outline: none;
-  border: 0;
+  border: none;
   padding: 8px;
   background-color: transparent;
 }
-
-/* /documention of components/ */
-
-iframe,
-.doc-example {
-  padding: 0 18px;
+.btn-getStart a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--primary-logoColor);
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 5px;
+  background: pink;
 }
+
+
 /* // makeing iframe Responsive */
 
-.iframe-wrapper {
-  width: 100%;
-  padding: 3px 4px;
-  margin: 1.5rem 0;
+.iframe-wrapper{
+  width: 80%;
+  margin: 1.5rem 0.3rem;
 }
 .iframe-md{
   height:20vh;
@@ -169,26 +185,27 @@ iframe,
 }
 
 .iframe-lg {
-  height: 50vh;
+  height: 60vh;
 }
 
 .grid-triple {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-
+#clip-btn{
+  background: rgb(245, 204, 204);
+  padding: 0.6rem 2rem;
+  font-size: 1rem;
+}
 #clip-input[type=text] {
   padding: 12px 20px;
+  width: 25rem;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   font-size: inherit;
-}
-
-.doc-parragraph {
-  padding: 4px 0 4px 16px;
 }
 
 /* //responsive-doc */
@@ -202,10 +219,15 @@ iframe,
   overflow: auto;
 }
 
+.doc-sidebar h4{
+  padding:1.5rem 1rem;
+}
+
 .doc-sidebar a {
   display: block;
   color: black;
   padding: 16px;
+  text-decoration: none;
 }
 
 .doc-sidebar a.active {
@@ -220,19 +242,10 @@ iframe,
 
 .content-doc #main,
 .content-doc header {
-  line-break: auto;
   margin-left: 14rem;
+} 
+
+.content-doc #main{
+  line-height: 2rem;
 }
 
-
-/* section */
-
-.doc-section section,.doc-section{
-  padding: 5px;
-}
-.doc-section {
-  border-bottom: 1px solid dimgrey;
-}
-.doc-section h2{
-  padding: 5px;
-}
