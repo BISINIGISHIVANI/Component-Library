@@ -13,7 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 20rem;
-    background-color: azure;
+    border: 1px solid black;
 }
 .title{
     font-size: medium;

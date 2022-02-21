@@ -8,8 +8,7 @@
 }
 
 .rating li.rated:hover {
-    background-color: red;
-
+    color: rgb(245, 204, 204);
 }
 
 .border-rate {
@@ -19,6 +18,6 @@
 }
 
 .emoji:hover {
-    background-color: blue;
+    background-color: rgb(245, 204, 204);
     border-radius: 50%;
 }

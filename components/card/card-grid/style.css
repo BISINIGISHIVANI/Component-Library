@@ -13,7 +13,7 @@ body {
     border: 2px solid black;
     height: fit-content;
     background-color: rgba(246, 176, 96, 0.938);
-    color: rgb(27, 93, 180);
+    color: rgb(245, 204, 204);
     display: grid;
     border-radius: 5px;
 }

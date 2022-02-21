@@ -9,11 +9,15 @@
   .alert {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 0.3rem;
-    border: 1px solid blue;
     padding: 0.2rem 0.4rem;
     box-sizing: border-box;
   }
-  
+  .alert-sucess{
+    color:rgb(60, 151, 106);
+  }
+  .alert-inform{
+    color: rgb(255, 218, 196);
+  }
   .alert-flex {
     display: flex;
     align-items: center;
@@ -22,6 +26,7 @@
   
   .btn-close {
     margin-left: auto;
+    cursor: pointer;
   }
   
   .alert.alert-accent-border {

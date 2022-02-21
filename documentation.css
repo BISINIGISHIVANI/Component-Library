@@ -14,7 +14,6 @@
 .secondary-heading {
   color: var(--secondary-logoColor);
 }
-
 .btn-getStart{
   text-decoration: none;
 }
@@ -22,6 +21,7 @@
   font-size: 2.2rem;
 }
 .docnav-bar {
+  z-index: 100;
   background-color: rgb(245, 204, 204);
   border-bottom: 2px solid black;
   display: flex;
@@ -166,18 +166,17 @@
   background: pink;
 }
 
-/* /documention of components/ */
 
-/* iframe,
-.doc-example {
-  padding: 0 18px;
-} */
 /* // makeing iframe Responsive */
 
-.iframe-wrapper {
+/* .iframe-wrapper {
   width: 100%;
   padding: 3px 4px;
   margin: 1.5rem 0;
+} */
+.iframe-wrapper{
+  width: 80%;
+  margin: 1.5rem 0.3rem;
 }
 .iframe-md{
   height:20vh;
@@ -191,7 +190,7 @@
 }
 
 .iframe-lg {
-  height: 50vh;
+  height: 60vh;
 }
 
 .grid-triple {
@@ -201,6 +200,7 @@
 
 #clip-input[type=text] {
   padding: 12px 20px;
+  width: 25rem;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
@@ -208,10 +208,6 @@
   box-sizing: border-box;
   font-size: inherit;
 }
-
-/* .doc-parragraph {
-  padding: 4px 0 4px 16px;
-} */
 
 /* //responsive-doc */
 
@@ -252,18 +248,7 @@
 
 .content-doc #main{
   width:80%;
-  padding: 1rem 4rem 1rem 12rem;
+  padding:1rem 1rem;
   line-height: 2rem;
 }
 
-/* section */
-/* 
-.doc-section section,.doc-section{
-  padding: 5px;
-}
-.doc-section {
-  border-bottom: 1px solid dimgrey;
-}
-.doc-section h2{
-  padding: 5px;
-} */
