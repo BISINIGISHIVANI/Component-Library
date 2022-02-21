@@ -3,7 +3,7 @@
 > A library of  front-end components built with HTML5 and CSS3 and reaccessibility of code just giving css style names.
 
 ## Overview
-  ComponentLibraryUI helps you quickly design and build your website Gorgeously. It has lots of reusable classes which help you customize your site easily and faster.
+  STUDY-UI helps you quickly design and build your website Gorgeously. It has lots of reusable classes which help you customize your site easily and faster.
   
 **[Start browsing ☞](https://component-library-shivani.netlify.app)**
 
