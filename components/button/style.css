@@ -4,9 +4,9 @@
     --text-color: #2e5339;
 }
 
-button {
+/* button {
     font-size: 1.8rem;
-}
+} */
 
 .btn-container {
     display: flex;
