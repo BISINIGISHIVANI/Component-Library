@@ -1,4 +1,4 @@
-### Component-Library UI
+### STUDY-UI
 
 > A library of  front-end components built with HTML5 and CSS3 and reaccessibility of code just giving css style names.
 
