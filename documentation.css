@@ -192,7 +192,11 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-
+#clip-btn{
+  background: rgb(245, 204, 204);
+  padding: 0.6rem 2rem;
+  font-size: 1rem;
+}
 #clip-input[type=text] {
   padding: 12px 20px;
   width: 25rem;
@@ -240,16 +244,6 @@
 .content-doc header {
   margin-left: 14rem;
 } 
-/* //footer  */
-.footer {
-  margin-top: auto;
-}
-
-.footer-title {
-  font-size: 1.2rem;
-  margin: 0.5rem auto;
-  font-weight: 500;
-}
 
 .content-doc #main{
   line-height: 2rem;
