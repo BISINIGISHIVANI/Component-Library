@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alert</title>
+  <link rel="stylesheet" href="../../component.css">
+  <link rel="stylesheet" href="alert.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <aside id="doc-sidemenu" class="doc-sidebar ">
+    <div>
+      <h4 class="padding-sm">Get Started</h4>
+      <ul>
+        <li><a href="../../doc.html">Introduction</a></li>
+      </ul>
+      <h4 class="padding-sm">Components</h4>
+      <ul>
+        <li><a  href="../avatar/avatar.html">Avatar</a></li>
+        <li><a class="active" href="./alert.html">Alerts</a></li>
+        <li><a  href="../badge/badge.html">Badge</a></li>
+        <li><a href="../button/button.html">Button</a></li>
+        <li><a href="../card/card-flex.html">Card</a></li>
+        <li><a href="../image/image.html">Image</a></li>
+        <li><a href="../input/input.html">Input</a></li>
+        <li><a  href="../typography/typography.html">Text Utilites</a></li>
+        <li><a href="../lists/lists.html">Lists</a></li>
+        <li><a  href="../navigation/navbar-responsive.html">Navigation</a></li>
+        <li><a href="../modal/modal.html">Modal</a></li>
+        <li><a  href="../rating/rating.html">Rating</a></li>
+        <li><a href="../toast/toast.html">Toast/Notify</a></li>
+        <li><a href="../simplified-grid/simplifiedgrid.html">Simplified Grid</a></li>
+        <li><a href="../slider/slider.html">Slider</a></li>
+      </ul>
+    </div>
+  </aside>
+  <aside id="open-sidemenu">
+    <div>
+      <h2 id="close-btn">X</h2>
+      <h4 class="padding-sm">Get Started</h4>
+      <ul>
+        <li><a href="../../doc.html">Introduction</a></li>
+      </ul>
+      <h4 class="padding-sm">Components</h4>
+      <ul>
+        <li><a  href="../avatar/avatar.html">Avatar</a></li>
+        <li><a class="active" href="./alert.html">Alerts</a></li>
+        <li><a  href="../badge/badge.html">Badge</a></li>
+        <li><a href="../button/button.html">Button</a></li>
+        <li><a href="../card/card-flex.html">Card</a></li>
+        <li><a href="../image/image.html">Image</a></li>
+        <li><a href="../input/input.html">Input</a></li>
+        <li><a  href="../typography/typography.html">Text Utilites</a></li>
+        <li><a href="../lists/lists.html">Lists</a></li>
+        <li><a  href="../navigation/navbar-responsive.html">Navigation</a></li>
+        <li><a href="../modal/modal.html">Modal</a></li>
+        <li><a  href="../rating/rating.html">Rating</a></li>
+        <li><a href="../toast/toast.html">Toast/Notify</a></li>
+        <li><a href="../simplified-grid/simplifiedgrid.html">Simplified Grid</a></li>
+        <li><a href="../slider/slider.html">Slider</a></li>
+      </ul>
+    </div>
+  </aside>
+  <div class="content-doc" id="doc-main">
+    <header class="docheader">
+      <nav class="docnav-bar">
+        <div class="docnav-leftEl">
+          <a href="">
+            <img class="logo" src="https://static.thenounproject.com/png/427493-200.png" alt="logo">
+          </a>
+          <h4 class="nav-title">StudyUI</h4>
+        </div>
+        <div class="docnav-rightEl">
+          <a class="padding-xs" href="">Home</a>
+          <a class="padding-xs" href="https://github.com/BISINIGISHIVANI/component-library/tree/development/components">
+            <i class="fa fa-github github-icon"></i>
+          </a>
+          <a class="padding-xs" id="menu-bar">
+            <i class="fa fa-bars github-icon"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <div id="main">
+      <section class="doc-section padding-lg">
+        <section>
+          <h2 class="padding-sm">Alert</h2>
+          <p class="doc-parragraph">Provide contextual feedback messages for typical user actions with the
+            handful
+            of available and flexible alert messages.
+          </p>
+        </section>
+        <section>
+          <h3>Basic Alerts</h3>
+          <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible
+            alert messages.</p>
+          <h3>Examples</h3>
+          <div class="doc-example border-md text-center padding-sm">
+            <div>
+              <div class="alert alert-sucess alert-flex">
+                <span class="material-icons-outlined icn-right">check_circle_outline</span>
+                Successfully updated
+                <span class="material-icons-outlined btn-close">close</span>
+              </div>
+              <div class="alert alert-flex alert-inform">
+                <span class="material-icons-outlined icn-right">info</span>
+                for information click here.
+                <span class="material-icons-outlined btn-close">close</span>
+              </div>
+              <div class="border-top-sm div-iframe">
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=142%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522alert%2520alert-sucess%2520alert-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icn-right%2522%253Echeck_circle_outline%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Successfully%2520updated%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520btn-close%2522%253Eclose%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-flex%2520alert-inform%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icn-right%2522%253Einfo%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520for%2520information%2520click%2520here.%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520btn-close%2522%253Eclose%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+  style="width: 726px; height: 262px; border:0;   overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h3> Alerts with Icon</h3>
+          <p>create alerts with icons. Depending on your icons and content, you may want to add more utilities or custom
+            styles.</p>
+          <h3>Examples</h3>
+          <div class="doc-example border-md text-center padding-sm">
+            <div class="alert alert-flex alert-wrap">
+              <span class="material-icons-outlined icn-right">report_problem</span>
+              <span>Lorem ipsum a dummy text</span>
+              <span class="material-icons-outlined btn-close">close</span>
+              <div class="container">
+                <ul>
+                  <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus mollitia quisquam minus!</li>
+                </ul>
+              </div>
+            </div>
+            <div class="border-top-sm div-iframe">
+              <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=142%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-flex%2520alert-wrap%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icn-right%2522%253Ereport_problem%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%253ELorem%2520ipsum%2520a%2520dummy%2520text%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520btn-close%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ELorem%2520ipsum%2520dolor%2520sit%252C%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Natus%2520mollitia%2520quisquam%2520minus%21%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="width: 972px; height: 262px; border:0;   overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+          </div>
+        </section>
+        <section>
+          <h3>Left Accent Border</h3>
+          <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible
+            alert messages.</p>
+          <h3>Examples</h3>
+          <div class="doc-example border-md text-center padding-sm">
+              <div class="alert alert-accent-border alert-flex">
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elite.
+                </span>
+              </div>
+              <div class="border-top-sm div-iframe">
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=142%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-accent-border%2520alert-flex%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elite.%250A%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+  style="width: 584px; height: 163px; border:0;   overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+              </div>
+          </div>
+        </section>
+        <section>
+          <h3> Alerts formore information</h3>
+          <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible
+            alert messages.</p>
+          <h3>Examples</h3>
+          <div class="doc-example border-md text-center padding-sm">
+              <div>
+                <div class="alert alert-flex alert-wrap">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  </span>
+                  <span class="material-icons-outlined  btn-close text-left">arrow_forward</span>
+                </div>
+              </div>
+              <div class="border-top-sm div-iframe">
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=142%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-flex%2520alert-wrap%2522%253E%250A%2520%2520%253Cspan%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipisicing%2520elit.%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520%2520btn-close%2520text-left%2522%253E%250A%2520%2520%2520%2520arrow_forward%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A"
+  style="width: 643px; height: 202px; border:0;   overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+              </div>
+          </div>
+        </section>
+        <section>
+          <h3>Alert with buttons</h3>
+          <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible
+            alert messages.</p>
+          <h3>Examples</h3>
+          <div class="doc-example border-md text-center padding-sm">
+              <div class="alert margin-sm">
+                <span class="material-icons-outlined icn-right">cancel</span>
+                <span>You have No credits left.Upgrade your account.</span>
+                <div class="container">
+                  <p>Play the game Earn Points.</p>
+                </div>
+                <div class="text-left">
+                  <button class="btn-primary">Get started</button>
+                  <button class="btn-secondary">knowMore</button>
+                </div>
+              </div>
+              <div class="border-top-sm div-iframe">
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=142%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520margin-sm%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icn-right%2522%253Ecancel%253C%252Fspan%253E%250A%2520%2520%253Cspan%253EYou%2520have%2520No%2520credits%2520left.Upgrade%2520your%2520account.%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%2520%2520%253Cp%253EPlay%2520the%2520game%2520Earn%2520Points.%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-left%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2522%253EGet%2520started%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-secondary%2522%253EknowMore%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+  style="width: 566px; height: 302px; border:0;   overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+              </div>
+          </div>
+        </section>
+        <footer class="footer-center">
+          <hr />
+          Copyright © 2022 StudyUI
+        </footer>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
