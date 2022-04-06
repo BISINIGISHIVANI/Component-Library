@@ -3,9 +3,9 @@
     display: inline;
     font-size: 1rem;
     padding: 1rem;
-    background-color: rgb(245, 204, 204);
+    background-color:var(--main-bg);
+    color: var(--mainWhite);
 }
-
 .toast-right {
     margin-left: 4rem;
     cursor: pointer;
