@@ -4,6 +4,9 @@
     grid-template-columns: auto auto;
     gap: 1rem;
 }
+.ul-list{
+    margin: 0 3rem ; 
+}
 .stackedlist-style li{
     list-style: none;
 }

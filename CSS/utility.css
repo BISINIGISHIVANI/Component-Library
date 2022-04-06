@@ -1,21 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@100&family=Rubik:wght@300;400&family=Ubuntu+Mono&display=swap');
+:root{
+    --primaryColor: #1276a5;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --mainSpacing: 0.1rem;
+    --main-bg: #043044;
 
-/*
-font-family use: 
-    font-family: 'Lato', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Rubik', sans-serif;
-    font-family: 'Ubuntu Mono', monospace;
-*/
-
-:root {
-        --primary-color: #656d4a;
-        --primary-hover-color: #4C5431;
-        --secondary-color: #202528;
-        --secondary-hover-color: #393e41;
-        --default-color: #645f55;
 }
 
 body {
     font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
 }

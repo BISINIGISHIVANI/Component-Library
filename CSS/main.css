@@ -1,9 +1,8 @@
-@import url(/components/alert/style.css);
-@import url(/components/avatar/style.css);
+@import url(/components/alert/alert.css);
+@import url(/components/avatar/avatar.css);
 @import url(/components/badge/style.css);
 @import url(/components/button/style.css);
-@import url(/components/card/card-flex/style.css);
-@import url(/components/card/card-grid/style.css);
+@import url(/components/card/style.css);
 @import url(/components/image/style.css);
 @import url(/components/input/style.css);
 @import url(/components/lists/style.css);
