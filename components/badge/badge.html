@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Badge</title>
+  <link rel="stylesheet" href="../../component.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+  <aside id="doc-sidemenu" class="doc-sidebar ">
+    <div>
+      <h4 class="padding-sm">Get Started</h4>
+      <ul>
+        <li><a href="../../doc.html">Introduction</a></li>
+      </ul>
+      <h4 class="padding-sm">Components</h4>
+      <ul>
+        <li><a href="../avatar/avatar.html">Avatar</a></li>
+        <li><a href="../alert/alert.html">Alerts</a></li>
+        <li><a class="active" href="./badge.html">Badge</a></li>
+        <li><a href="../button/button.html">Button</a></li>
+        <li><a href="../card/card-flex.html">Card</a></li>
+        <li><a href="../image/image.html">Image</a></li>
+        <li><a href="../input/input.html">Input</a></li>
+        <li><a  href="../typography/typography.html">Text Utilites</a></li>
+        <li><a href="../lists/lists.html">Lists</a></li>
+        <li><a  href="../navigation/navbar-responsive.html">Navigation</a></li>
+        <li><a href="../modal/modal.html">Modal</a></li>
+        <li><a  href="../rating/rating.html">Rating</a></li>
+        <li><a href="../toast/toast.html">Toast/Notify</a></li>
+        <li><a href="../simplified-grid/simplifiedgrid.html">Simplified Grid</a></li>
+        <li><a href="../slider/slider.html">Slider</a></li>
+      </ul>
+    </div>
+  </aside>
+  <aside id="open-sidemenu">
+    <div>
+      <h2 id="close-btn">X</h2>
+      <h4 class="padding-sm">Get Started</h4>
+      <ul>
+        <li><a href="">Introduction</a></li>
+      </ul>
+      <h4 class="padding-sm">Components</h4>
+      <ul>
+        <li><a href="../avatar/avatar.html">Avatar</a></li>
+        <li><a href="../alert/alert.html">Alerts</a></li>
+        <li><a class="active" href="./badge.html">Badge</a></li>
+        <li><a href="../button/button.html">Button</a></li>
+        <li><a href="../card/card-flex.html">Card</a></li>
+        <li><a href="../image/image.html">Image</a></li>
+        <li><a href="../input/input.html">Input</a></li>
+        <li><a  href="../typography/typography.html">Text Utilites</a></li>
+        <li><a href="../lists/lists.html">Lists</a></li>
+        <li><a  href="../navigation/navbar-responsive.html">Navigation</a></li>
+        <li><a href="../modal/modal.html">Modal</a></li>
+        <li><a  href="../rating/rating.html">Rating</a></li>
+        <li><a href="../toast/toast.html">Toast/Notify</a></li>
+        <li><a href="../simplified-grid/simplifiedgrid.html">Simplified Grid</a></li>
+        <li><a href="../slider/slider.html">Slider</a></li>
+      </ul>
+    </div>
+  </aside>
+  <div class="content-doc" id="doc-main">
+    <header class="docheader">
+      <nav class="docnav-bar">
+        <div class="docnav-leftEl">
+          <a href="">
+            <img class="logo" src="https://static.thenounproject.com/png/427493-200.png" alt="logo">
+          </a>
+          <h4 class="nav-title">StudyUI</h4>
+        </div>
+        <div class="docnav-rightEl">
+          <a class="padding-xs" href="">Home</a>
+          <a class="padding-xs" href="https://github.com/BISINIGISHIVANI/component-library/tree/development/components">
+            <i class="fa fa-github github-icon"></i>
+          </a>
+          <a class="padding-xs" id="menu-bar">
+            <i class="fa fa-bars github-icon"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <div id="main">
+      <section class="doc-section" id="badge-a">
+        <section>
+          <h4 class="padding-sm">Badge</h4>
+          <p class="doc-parragraph">The Badge component is a visual indicator for UI elements. It enables you
+            to
+            easily show statuses, notifications and short messages in your app. Badges provide additional
+            contextual
+            information for other elements on the page. The Badge position is determined by its parent
+            element
+          </p>
+        </section>
+        <section>
+          <h4 class="padding-sm">Examples</h4>
+          <div class="doc-example border-md">
+            <section class="doc-section">
+              <div class="badge-1 badge-container">
+                <div class="badge-relative">
+                  <span class="badge-relative">Text with a badge</span>
+                  <span class="badge-absolute badge-sm badge-bold badge-blue badge-round">4</span>
+                </div>
+                <div class="badge-relative">
+                  <span class="badge-relative">Text with Large badge</span>
+                  <span class="badge-absolute badge-md badge-lg badge-blue  badge-round">1</span>
+                </div>
+                <div class="badge-relative">
+                  <button class="btn-primary">Action</button>
+                  <span class="badge-absolute badge-btn badge-bold badge-round badge-blue">23</span>
+                </div>
+                <div class="badge-relative">
+                  <button id="btn-input" class="btn-primary">Hide</button>
+                  <span id="badge-hide"
+                    class="badge-absolute badge-btn-right badge-bold badge-round badge-blue">5</span>
+                </div>
+                <div class="badge-relative">
+                  <i class="material-icons fas fa-home">home</i>
+                  <span class="badge-absolute badge-icon  badge-round  badge-bold badge-blue">15</span>
+                </div>
+                <div class="badge-relative">
+                  <img class="badge-round" src="https://picsum.photos/70" alt="random-image">
+                  <div class="badge-absolute badge-avatar badge-round box badge-round"></div>
+                </div>
+              </div>
+            </section>
+            <div class="border-top-sm div-iframe">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=346.2000036239624&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=142%25&si=false&es=2x&wm=false&code=%253Cdiv%2520%2520class%253D%2522badge-relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-relative%2522%253EText%2520with%2520a%2520badge%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-absolute%2520badge-sm%2520badge-bold%2520badge-blue%2520badge-round%2522%253E4%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520%2520class%253D%2522badge-relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-relative%2522%253EText%2520with%2520Large%2520badge%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-absolute%2520badge-md%2520badge-lg%2520badge-blue%2520%2520badge-round%2522%253E1%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520%2520class%253D%2522badge-relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2522%253EAction%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-absolute%2520badge-btn%2520badge-bold%2520badge-round%2520badge-blue%2522%253E23%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520%2520class%253D%2522badge-relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522btn-input%2522class%253D%2522btn-primary%2522%253EHide%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520id%253D%2522badge-hide%2522class%253D%2522badge-absolute%2520badge-btn-right%2520badge-bold%2520badge-round%2520badge-blue%2522%253E5%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520%2520class%253D%2522badge-relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520fas%2520fa-home%2522%253Ehome%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-absolute%2520badge-icon%2520%2520badge-round%2520%2520badge-bold%2520badge-blue%2522%253E15%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520%2520class%253D%2522badge-relative%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-round%2522src%253D%2522https%253A%252F%252Fpicsum.photos%252F70%2522%2520alt%253D%2522random-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-absolute%2520badge-avatar%2520badge-round%2520box%2520badge-round%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                style="width: 961px; height: 575px; border:0;  overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+          </div>
+        </section>
+    </div>
+    <footer class="footer-center">
+      <hr />
+      Copyright © 2022 StudyUI
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

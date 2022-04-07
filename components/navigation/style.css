@@ -8,9 +8,9 @@
     font-size: 1.5rem;
 }
 
-.header {
-    color: whitesmoke;
-    background-color:rgb(245, 204, 204) ;
+.header-res {
+    color:var(--mainWhite);
+    background-color:var(--main-bg);
 }
 
 .header-flex {
@@ -18,6 +18,7 @@
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
+    padding: 0.4rem;
 }
 
 .title {
@@ -43,4 +44,6 @@
 
 .user-name {
     font-size: 2rem;
+    color: var(--mainWhite);
+    text-decoration: none;
 }

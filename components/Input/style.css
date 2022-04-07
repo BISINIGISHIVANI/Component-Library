@@ -6,9 +6,8 @@
 }
 
 .validatin-form-size {
-    border: 1px solid pink;
+    border: 1px solid var(--primaryColor);
     padding: 1rem;
-    background-color: rgb(127, 168, 255);
     border-radius: 1rem;
 }
 
@@ -18,13 +17,18 @@
 .form-size {
     padding: 1rem;
 }
+.input-txt[type="text"]{
+    padding: 0.7rem;
+    font-size: medium;
+}
 /* //responsive Input */
 .login-box {
     width: 20rem;
     padding: 3rem;
-    background: rgb(245, 204, 204);
+    background: var(--main-bg);
     box-sizing: border-box;
     border-radius: 10px;
+    margin: 1rem;
 }
 
 .login-box h2 {
@@ -38,9 +42,8 @@
 
 .login-box .user-box input {
     width: 100%;
-    padding: 12px 0;
     font-size: 1.3rem;
-    color: rgb(90, 88, 88);
+    color: var(--main-Black);
     margin-bottom: 2.5rem;
     border: none;
     border-bottom: 1px solid #fff;
@@ -55,7 +58,7 @@
     left: 0;
     padding: 12px 0;
     font-size: 1.3rem;
-    color: rgb(90, 88, 88);
+    color: var(--main-white);
     pointer-events: none;
 }
 
@@ -72,7 +75,7 @@
     text-decoration: none;
     font-size: 1.3rem;
     color: rgb(13, 13, 14);
-    background: rgb(245, 204, 204);
+    background: var(--primaryColor);
     border: 1px solid rgb(42, 43, 44);
     padding: 8px;
 }
