@@ -38,7 +38,6 @@ To use a component, navigate to the component’s detail page to see demos, usag
  - Input
     - textbox
     - with validation and errors style
- - p1&p2
     - Text Utilities/typography
         - headings
         - small text
@@ -55,8 +54,7 @@ To use a component, navigate to the component’s detail page to see demos, usag
     - Simplified Grid
         - grid-2: two items in a grid
         - grid-3: three items
-    -   Can contain (P2)#
         -  Navigation
-            - Submenus (do later)
-            - Hamburger/Drawer (do later)
+            - Submenus
+            - Hamburger/Drawer
          - Slider

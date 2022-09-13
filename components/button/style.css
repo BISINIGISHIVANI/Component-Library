@@ -1,46 +1,37 @@
-:root {
-    --primary-color: rgb(245, 204, 204);
-    --secondary-color: #F4D06F;
-    --text-color: #2e5339;
-}
-
 .btn-container {
     display: flex;
     flex-direction: column;
     flex: column wrap;
-    gap: 2rem;
     font-size: 1rem;
 }
 .btn-disable{
     cursor: not-allowed;
 }
 .btn-primary {
-    background-color: var(--primary-color);
-    color: #f5f5f5;
-    padding: 0.5rem 1.3rem;
-    border: 1px solid rgb(245, 204, 204);
-    outline: none;
+    background: var(--primaryColor);
+    border: none;
 }
 .btn-primary,.btn-secondary,.material-icons-outlined.btn-icn-left
 ,.material-icons-outlined.btn-icn-rht,.material-icons-round.btn-icn,.btn-plain{
     cursor: pointer;
 }
-.btn-primary,.btn-secondary{
-    padding: 0.5rem 1.3rem;
+.btn-primary,.btn-secondary,.btn-disable,.btn-plain,.btn-link{
+    padding: 0.5rem 0.75rem;
     outline: none;
     margin-left: 1rem;
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+    font-weight: bold;
 }
 .btn-secondary {
-    border-color: var(--primary-color);
-    color: var(--primary-color);
-    font-weight: 600;
-    background-color: white;
-    padding: 0.5rem 1.3rem;
+    border-color: var(--primaryColor);
+    color: var(--primaryColor);
+    background-color: transparent;
 }
 
 .btn-plain {
     border: none;
-    color: var(--primary-color);
+    color: var(--primaryColor);
     background-color: white;
 }
 
@@ -52,20 +43,34 @@
     padding: 0.4rem;
     border: 2px solid var(--text-color);
 }
-
+.btn-flex{
+    display: flex;
+    flex-direction: row;
+    place-items: center center;
+    flex-wrap: wrap;
+   font-size: 1.4rem;
+   padding: 0.5rem 0.75rem;
+}
+.div-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
 .material-icons-round.btn-icn {
     font-size: 3rem;
-    color: var(--primary-color)
+    color: var(--primaryColor)
 }
 
 .material-icons-outlined.btn-icn-left {
-    margin-right:1rem;
-    color:var(--primary-color);
+    margin-left:1rem;
+    color:var(--primaryColor);
 }
 
 .material-icons-outlined.btn-icn-rht {
     margin-right: 1rem;
-    color:var(--primary-color);
+    color:var(--primaryColor);
 }
 
 .material-icons-round:hover {

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modal</title>
+    <link rel="stylesheet" href="../../../component.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+
+</head>
+<body>
+    <aside id="doc-sidemenu" class="doc-sidebar ">
+        <div>
+          <h4 class="padding-sm">Get Started</h4>
+          <ul>
+            <li><a href="../../doc.html">Introduction</a></li>
+          </ul>
+          <h4 class="padding-sm">Components</h4>
+          <ul>
+            <li><a  href="../avatar/avatar.html">Avatar</a></li>
+            <li><a  href="../alert/alert.html">Alerts</a></li>
+            <li><a  href="../badge/badge.html">Badge</a></li>
+            <li><a  href="../button/button.html">Button</a></li>
+            <li><a href="../card/card-flex.html">Card</a></li>
+            <li><a   href="../image/image.html">Image</a></li>
+            <li><a  href="../input/input.html">Input</a></li>
+            <li><a  href="../typography/typography.html">Text Utilites</a></li>
+            <li><a  href="../lists/lists.html">Lists</a></li>
+            <li><a  href="../navigation/navbar-responsive.html">Navigation</a></li>
+            <li><a class="active" href="./modal.html">Modal</a></li>
+            <li><a  href="../rating/rating.html">Rating</a></li>
+            <li><a href="../toast/toast.html">Toast/Notify</a></li>
+            <li><a href="../simplified-grid/simplifiedgrid.html">Simplified Grid</a></li>
+            <li><a href="../slider/slider.html">Slider</a></li>
+          </ul>
+        </div>
+      </aside>
+      <aside id="open-sidemenu">
+        <div>
+          <h2 id="close-btn">X</h2>
+          <h4 class="padding-sm">Get Started</h4>
+          <ul>
+            <li><a href="../../doc.html">Introduction</a></li>
+          </ul>
+          <h4 class="padding-sm">Components</h4>
+          <ul>
+            <li><a  href="../avatar/avatar.html">Avatar</a></li>
+            <li><a  href="../alert/alert.html">Alerts</a></li>
+            <li><a  href="../badge/badge.html">Badge</a></li>
+            <li><a  href="../button/button.html">Button</a></li>
+            <li><a href="../card/card-flex.html">Card</a></li>
+            <li><a   href="../image/image.html">Image</a></li>
+            <li><a  href="../input/input.html">Input</a></li>
+            <li><a  href="../typography/typography.html">Text Utilites</a></li>
+            <li><a  href="../lists/lists.html">Lists</a></li>
+            <li><a  href="../navigation/navbar-responsive.html">Navigation</a></li>
+            <li><a class="active" href="./modal.html">Modal</a></li>
+            <li><a  href="../rating/rating.html">Rating</a></li>
+            <li><a href="../toast/toast.html">Toast/Notify</a></li>
+            <li><a href="../simplified-grid/simplifiedgrid.html">Simplified Grid</a></li>
+            <li><a href="../slider/slider.html">Slider</a></li>
+          </ul>
+        </div>
+      </aside>
+      <div class="content-doc" id="doc-main">
+        <header class="docheader">
+          <nav class="docnav-bar">
+            <div class="docnav-leftEl">
+              <a href="">
+                <img class="logo" src="https://static.thenounproject.com/png/427493-200.png" alt="logo">
+              </a>
+              <h4 class="nav-title">StudyUI</h4>
+            </div>
+            <div class="docnav-rightEl">
+              <a class="padding-xs" href="">Home</a>
+              <a class="padding-xs" href="https://github.com/BISINIGISHIVANI/component-library/tree/development/components">
+                <i class="fa fa-github github-icon"></i>
+              </a>
+              <a class="padding-xs" id="menu-bar">
+                <i class="fa fa-bars github-icon"></i>
+              </a>
+            </div>
+          </nav>
+        </header>
+        <div id="main">
+          <section class="doc-section padding-lg">
+      <section>
+          <h4 class="padding-sm">Modal</h4>
+          <p class="doc-parragraph">
+              The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or
+              whatever
+              else. <ModalBody> main part of the modal, holds the input fields, images, etc. Place the modal
+                  markup
+                  somewhere at root of you component layout. To work with the modal you must use the reference
+                  to
+                  the
+                  Modal component.
+          </p>
+      </section>
+      <section>
+          <h4 class="padding-sm">Example</h4>
+    <div class="doc-example border-md  text-center padding-sm">
+      <div class="modal">
+        <h4 class="model-border">Title</h4>
+        <div class="modal-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A modi odit, vel quasi et enim est minima iste corrupti eius recusandae </div>
+        <footer class="model-footer">
+           <button class="btn-primary">yes</button>
+           <button class="btn-primary">No</button> 
+        </footer>
+    </div>
+      <div class="border-top-sm div-iframe">
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=142%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%253Ch4%2520class%253D%2522model-border%2522%253ETitle%253C%252Fh4%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal-body%2522%253E%250A%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520A%2520modi%2520odit%252C%2520vel%250A%2520%2520%2520%2520quasi%2520et%2520enim%2520est%2520minima%2520iste%2520corrupti%2520eius%2520recusandae%257B%27%2520%27%257D%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cfooter%2520class%253D%2522model-footer%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2522%253Eyes%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2522%253ENo%253C%252Fbutton%253E%250A%2520%2520%253C%252Ffooter%253E%250A%253C%252Fdiv%253E%250A"
+  style="width: 693px; height: 302px; border:0;  overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+      </div>
+      </section>
+    </section>
+    <footer class="footer-center">
+      <hr />
+      Copyright © 2022 StudyUI
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
